@@ -441,7 +441,7 @@
 
                     <div class="col-lg-6">
                         <form action="mailto:naseelntm00@gmail.com" method="get" enctype="text/plain"
-                              class="email-form">
+                              class="email-form" id="contactForm">
                             <div class="row gy-3">
 
                                 <div class="col-lg-6">
@@ -537,6 +537,7 @@
 
 <!-- Template Main JS File -->
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form from submitting the default way
 
@@ -552,6 +553,8 @@
             document.querySelector('.sent-message').style.display = 'block';
         }, 2000); // Adjust the time as needed
     });
+});
+
 </script>
 </body>
 
