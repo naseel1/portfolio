@@ -142,7 +142,19 @@ p {
 .main-content {
   padding-top: 140px;
 }
-
+ .appear {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+}.appear.inview {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -194,7 +206,7 @@ p {
                 opacity:1;
             }
             100% {
-                opacity:0.8;
+                opacity:1;
             }
         }
 .portfolio-item-link {
@@ -385,6 +397,25 @@ scale:1.05;
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+}
+.whatsapp{
+margin-left: 10px;
+position: fixed;
+right: 10px;
+transform: translate(-5px, 50%);
+top: 50%;
+font-size: 24px;
+color: #25d366;
+z-index: 1;
+transition: all 0.5s ease-in-out 0s;
+}
+.whatsapp:hover {
+    scale: 1.5;
+}
+#phone{
+    top: 45%;
+    transform: translate(-8px, 50%);
+    color: #0d6efd;
 }
 
 /**
