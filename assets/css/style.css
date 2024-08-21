@@ -195,7 +195,7 @@ p {
                 background:#00000030;
             }
             100% {
-                background: #000000c4;
+                background: #00000038;
             }
         }
         @keyframes fadeIn {
@@ -531,7 +531,7 @@ transition: all 0.5s ease-in-out 0s;
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.webp") repeat scroll center center/cover;
+  background: url("../img/hi.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -1412,6 +1412,9 @@ blockquote {
     display: inline-block;
   }
 }
+#hero-mob{
+display:none;
+}
 
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1449,6 +1452,44 @@ blockquote {
 #header.header-scrolled{
     top: 0;
     background: white;
+}
+#hero {
+background: black;
+}
+#hero-mob{      
+height: 50%;
+width: 100%;
+position: absolute;
+bottom: 0;
+display: block;
+}
+#hero-mob .vid{
+object-fit:contain !important;
+}
+#hero .hero-content {
+    height: 80vh;
+}
+.whatsapp{
+    top: 15%;
+}
+#about{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#services {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#portfolio {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#contact {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#phone {
+    top: 10%;
 }
 .hero-content h1 {
             font-size: 19px;
