@@ -627,13 +627,13 @@ transition: all 0.5s ease-in-out 0s;
     display: block !important;
   }
   .hero-content p{
-  text-align: justify;
+  text-align: center;
   }
   .list-unstyled {
     padding-left: 0;
     list-style: none;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
 }
 
   .breadcrumbs ol {
