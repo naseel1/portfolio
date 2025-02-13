@@ -62,12 +62,12 @@
 
 <!-- ======= Hero Section ======= -->
 <div id="hero" class="home">
-<div id="hero-mob">
-<img src="assets/img/hi.gif" style="
+    <div id="hero-mob">
+        <img src="assets/img/hi.gif" style="
     height: 100%;
     width: 100%;
     object-fit: contain;"/>
-</div>
+    </div>
     <div class="back"></div>
     <a href="tel:+91 8156820308" target="_blank" id="phone"
        class="whatsapp"><i class="bi bi-telephone"></i>
@@ -117,7 +117,13 @@
                     <div class="about-descr">
 
                         <p class="p-heading">About Me</p>
-                        <p class="separator">An Experienced Odoo developer with 3 years of hands-on experience, currently working at <b>Emdot Mincetech Private Limited</b> since 2022. Equipped with a Bachelor's degree in Computer Applications (BCA) and having completed courses in Python and Django, you possess a solid foundation in software development. Additionally, you're proficient in responsive website development, ensuring optimal user experience across various devices. A versatile professional, you have a strong grasp of Odoo customization and implementation, capable of delivering efficient solutions tailored to business needs.</p>
+                        <p class="separator">An Experienced Odoo developer with 3 years of hands-on experience,
+                            currently working at <b>Emdot Mincetech Private Limited</b> since 2022. Equipped with a
+                            Bachelor's degree in Computer Applications (BCA) and having completed courses in Python and
+                            Django, you possess a solid foundation in software development. Additionally, you're
+                            proficient in responsive website development, ensuring optimal user experience across
+                            various devices. A versatile professional, you have a strong grasp of Odoo customization and
+                            implementation, capable of delivering efficient solutions tailored to business needs.</p>
 
                     </div>
 
@@ -155,7 +161,8 @@
                         <div class="services-block">
                             <i class="bi bi-binoculars"></i>
                             <span>Website Development</span>
-                            <p class="separator">Website Development ensures that the design elements are functional, responsive, and
+                            <p class="separator">Website Development ensures that the design elements are functional,
+                                responsive, and
                                 work seamlessly across different browsers and devices</p>
                         </div>
                     </div><!-- End testimonial item -->
@@ -194,6 +201,60 @@
         </div>
 
     </div><!-- End Services Section -->
+    <div class="skills">
+        <h2 class="my-skill">My Skills</h2>
+        <ul class="skills-bar-container">
+            <li>
+                <div class="progressbar-title">
+                    <h3>HTML5</h3>
+                    <span class="percent" id="html-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressred" id="progress-html"></span>
+                </div>
+            </li>
+            <li>
+                <div class="progressbar-title">
+                    <h3>CSS / SASS</h3>
+                    <span class="percent" id="css-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-css"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h3>JavaScript / jQuery</h3>
+                    <span class="percent" id="javascript-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progresspurple" id="progress-javascript"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h3>Python/ Odoo</h3>
+                    <span class="percent" id="php-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressorange" id="progress-php"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h3>React</h3>
+                    <span class="percent" id="angular-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                </div>
+            </li>
+
+        </ul>
+    </div>
 
     <!-- ======= Portfolio Section ======= -->
     <div id="portfolio" class="paddsection">
@@ -450,42 +511,48 @@
                     </div>
 
                     <div class="col-lg-6 appear">
-                       <form action="https://formspree.io/f/xnnalaqk" method="POST" class="email-form" id="contactForm">
-    <div class="row gy-3">
-        <div class="col-lg-6">
-            <div class="form-group contact-block1">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-            </div>
-        </div>
+                        <form action="mailto:naseelntm00@gmail.com" method="POST" class="email-form" id="contactForm">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div class="form-group contact-block1">
+                                        <input type="text" name="name" class="form-control" id="name"
+                                               placeholder="Your Name" required>
+                                    </div>
+                                </div>
 
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-            </div>
-        </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email"
+                                               placeholder="Your Email" required>
+                                    </div>
+                                </div>
 
-        <div class="col-lg-12">
-            <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-        </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject"
+                                               placeholder="Subject" required>
+                                    </div>
+                                </div>
 
-        <div class="col-lg-12">
-            <div class="form-group">
-                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
-            </div>
-        </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" placeholder="Message"
+                                                  required></textarea>
+                                    </div>
+                                </div>
 
-        <div class="col-lg-12">
-            <div class="loading" style="display:none;">Loading...</div>
-            <div class="sent-message" style="display:none;">Your message has been sent. Thank you!</div>
-        </div>
+                                <div class="col-lg-12">
+                                    <div class="loading" style="display:none;">Loading...</div>
+                                    <div class="sent-message" style="display:none;">Your message has been sent. Thank
+                                        you!
+                                    </div>
+                                </div>
 
-        <div class="mt-0">
-            <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-        </div>
-    </div>
-</form>
+                                <div class="mt-0">
+                                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                                </div>
+                            </div>
+                        </form>
 
                     </div>
                 </div>
@@ -516,7 +583,8 @@
         <span style="
     font-size: 10px;
 ">Site visitors:<a href="#" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=15838419&amp;style=0008&amp;nbdigits=5&amp;type=ip&amp;initCount=0312" title="Counter Widget" alt="Visit counter For Websites" border="0"></a></span>
+<img src="https://hitwebcounter.com/counter/counter.php?page=15838419&amp;style=0008&amp;nbdigits=5&amp;type=ip&amp;initCount=0312"
+     title="Counter Widget" alt="Visit counter For Websites" border="0"></a></span>
 
         <div class="credits">
 
@@ -535,10 +603,30 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>
 
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+<script>
+    var lang = {
+    "html": "100%",
+    "css": "90%",
+    "javascript": "70%",
+    "php": "92%",
+    "angular": "65%"
+  };
+
+  var multiply = 4;
+
+  $.each(lang, function(language, pourcent) {
+    let delayMultiplier = multiply; // Capture the correct value
+    setTimeout(function() {
+      $('#' + language + '-pourcent').html(pourcent);
+    }, 700 * delayMultiplier);
+    multiply++;
+  });
+</script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('contactForm').addEventListener('submit', function(event) {
