@@ -1748,6 +1748,7 @@ padding-bottom: 50px;
 .back {
     width: 100%;
     height: 100%;
+}
 #hero .hero-content {
   height: 80vh;
   }
@@ -1823,9 +1824,8 @@ padding-bottom: 50px;
     display: inline-block;
   }
   .skills-bar-container{
-  padding-left:0;
+        padding-left:0;
       width: 90%;
-  }
   }
 }
 
