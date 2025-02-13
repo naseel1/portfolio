@@ -1822,6 +1822,11 @@ padding-bottom: 50px;
     float: none;
     display: inline-block;
   }
+  .skills-bar-container{
+  padding-left:0;
+      width: 90%;
+  }
+  }
 }
 
 /** Width between 480px to 0
