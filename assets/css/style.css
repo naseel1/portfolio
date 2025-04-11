@@ -5,7 +5,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #ffffff;
+  background: #010101;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -28,7 +28,7 @@ h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: #010101;
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -98,9 +98,9 @@ p {
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: #ffffff;
   border: 1px solid #999;
-  border-radius: 0;
+  border-radius: 8px;
   color: #999999;
   font-size: 12px;
   font-weight: 500;
@@ -253,7 +253,7 @@ scale:1.05;
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 0px 0;
   background-color: #fff;
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
@@ -320,7 +320,7 @@ scale:1.05;
       font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
-  color: #7e7d7d;
+  color: #050505;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -654,7 +654,7 @@ transition: all 0.5s ease-in-out 0s;
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #010101;
   padding-top: 120px;
 }
 
@@ -678,19 +678,22 @@ transition: all 0.5s ease-in-out 0s;
     text-align: left;
     font-weight: 600;
     font-family: 'Poppins';
+    color:#fff;
+
 }
 
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  color:#fff;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
+  background: #010101;
   position: relative;
   padding-bottom: 80px;
 }
@@ -710,6 +713,7 @@ transition: all 0.5s ease-in-out 0s;
   margin: 0;
   font-size: 13px;
   line-height: 22px;
+  color:#000;
 }
 
 .services-block i {
@@ -860,6 +864,7 @@ scale:1.02;
 }
 .skills{
 padding-top:48px;
+background: #010101;
 }
 .skills-bar-container li .progressbar-title h3 {
     display: inline-block;
@@ -874,7 +879,7 @@ padding-top:48px;
     font-weight: 600;
 }
 .skills-bar-container li .bar-container {
-  background: #292929b8;
+  background: #ffffff1c;
   position: relative;
   width: 100%;
   height: 5px;
@@ -1211,7 +1216,7 @@ padding-top:48px;
   list-style: none;
   margin: 0;
   padding: 0;
-  color:#2d2d2d;
+  color:#fff;
 }
 
 .contact-details li {
@@ -1222,6 +1227,7 @@ padding-top:48px;
 #contact textarea {
   width: 100%;
   margin-bottom: 5px;
+  transition: all 0.4s ease-in-out;
 }
 
 #contact textarea {
@@ -1291,9 +1297,9 @@ color: #110a00;
 .phone{
 display:none;
 }
-.btn-send:hover{
-color: #616161;
-border: 1px solid #000;
+.btn-send:hover {
+    border: 1px solid;
+    scale: 1.02;
 }
 .btn-send{
 border: 1px solid;
@@ -1436,7 +1442,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: #010101;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1459,7 +1465,7 @@ blockquote {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #444;
+  color: #d2d2d2;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
