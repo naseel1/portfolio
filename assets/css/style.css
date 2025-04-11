@@ -702,7 +702,7 @@ transition: all 0.5s ease-in-out 0s;
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #ffff;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -713,7 +713,7 @@ transition: all 0.5s ease-in-out 0s;
   margin: 0;
   font-size: 13px;
   line-height: 22px;
-  color:#000;
+  color:#ffff;
 }
 
 .services-block i {
@@ -1445,6 +1445,7 @@ blockquote {
   background: #010101;
   padding-top: 50px;
   padding-bottom: 50px;
+  border-top: 1px solid #555555;
 }
 
 #footer .socials-media {
