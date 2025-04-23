@@ -38,11 +38,32 @@
 <body>
 
 <!-- ======= Header ======= -->
+<!-- HTML -->
+<script>
+    window.addEventListener("load", function () {
+      // Show welcome text after 1s
+      setTimeout(() => {
+        document.querySelector(".welcome-text").style.opacity = 1;
+      }, 1000);
+
+      // Hide loader after 5s
+      setTimeout(() => {
+        document.querySelector(".loading-overlay").style.display = "none";
+      }, 5000);
+    });
+</script>
+
+
+<div class="loading-overlay">
+    <img src="assets/img/load.gif" alt="Loading..." class="loading-gif"/>
+    <p class="welcome-text">Welcome!</p>
+</div>
+
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo"><img src="assets/img/logo1.png" id="mob" alt="" class="img-fluid"><img
-                src="assets/img/logo.png" alt="" class="img-fluid phone"></a>
+        <a href="index.html" class="logo"><img src="assets/img/nasee.png" id="mob" alt="" class="img-fluid"><img
+                src="assets/img/nasee.png" alt="" class="img-fluid phone"></a>
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
@@ -62,6 +83,10 @@
 
 <!-- ======= Hero Section ======= -->
 <div id="hero" class="home">
+    <div class="toplogo"><img src="assets/img/nasee-logo.png" >
+        <div style="font-size: 12px;">naseel_na_si
+        </div>
+    </div>
     <div id="hero-mob">
         <img src="assets/img/hi.gif" style="
     height: 100%;
