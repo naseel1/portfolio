@@ -1761,8 +1761,8 @@ background: black;
 #hero-mob{      
 width: 100%;
 position: absolute;
-    height: 25%;
-    bottom: 8%;
+height: auto;
+bottom: 0;
 display: block;
 }
 #hero-mob .vid{
@@ -1808,7 +1808,7 @@ padding-bottom: 50px;
     height: 100%;
 }
 #hero .hero-content {
-  height: 80vh;
+  height: 100vh;
   }
   .nav-menu {
     margin-top: 40px;
