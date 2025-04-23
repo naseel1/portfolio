@@ -1762,7 +1762,7 @@ background: black;
 width: 100%;
 position: absolute;
 height: auto;
-bottom: 0;
+bottom: -15px;
 display: block;
 }
 #hero-mob .vid{
@@ -1892,7 +1892,7 @@ padding-bottom: 50px;
     position: absolute;
     right: 50%;
     top: 80px;
-    z-index: 1000;
+    z-index: 100;
     text-align: center;
     transform: translateX(50%);
 }
