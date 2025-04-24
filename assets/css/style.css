@@ -1747,8 +1747,8 @@ display:none;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 600px) {
-.circle, .circle-follow{
-display:none;
+.circle, .circle-follow {
+  display: none;
 }
   /* Navbar */
   nav {
