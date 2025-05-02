@@ -276,7 +276,7 @@ scale:1.05;
     text-align: center;
 }
 .toplogo img{
-    width: 80px;
+    width: 45px;
 }
 
 .loading-gif {
@@ -573,7 +573,7 @@ transition: all 0.5s ease-in-out 0s;
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/hi.jpg") repeat scroll center center/cover;
+
   height: 100vh;
   width: 100%;
 }
@@ -2102,3 +2102,233 @@ padding-bottom: 50px;
     margin-right: 0;
   }
 }
+
+        .mil-animation-frame {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  -webkit-animation: jump 10s linear infinite;
+          animation: jump 10s linear infinite;
+  pointer-events: none;
+}
+
+.mil-animation {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.mil-position-1 {
+  top: 100px;
+  right: 100px;
+}
+.mil-position-1 .mil-pentagon div {
+  border-top: 0.1px solid rgb(255, 255, 255);
+}
+
+.mil-position-2 {
+  top: -60px;
+  left: 15%;
+}
+.mil-position-2 .mil-pentagon div {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.mil-position-2 .mil-dodecahedron {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-2 {
+    display: none;
+  }
+}
+
+.mil-position-3 {
+  bottom: -100px;
+  right: 35%;
+}
+.mil-position-3 .mil-pentagon div {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.mil-position-3 .mil-dodecahedron {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-3 {
+    display: none;
+  }
+}
+
+.mil-position-4 {
+    top: 260px;
+    right: 20%;
+}
+.mil-position-4 .mil-pentagon div {
+  border-top: 0.1px solid rgb(255, 255, 255);
+}
+.mil-position-4 .mil-dodecahedron {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@media screen and (max-width: 1400px) {
+  .mil-position-4 {
+    display: none;
+  }
+}
+.mil-position-4.mil-dark .mil-pentagon div {
+  border-top: 0.1px solid rgb(0, 0, 0);
+}
+
+.mil-dodecahedron {
+  position: relative;
+  left: 100px;
+  top: 40px;
+  width: 100px;
+  height: 223px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: rotate 100s infinite linear;
+          animation: rotate 100s infinite linear;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+            transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+            transform: rotateX(360deg) rotateY(0deg) rotateZ(-360deg);
+  }
+}
+
+.mil-pentagon {
+  position: absolute;
+  width: 100px;
+}
+.mil-pentagon:nth-child(1) {
+  -webkit-transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.2turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(6) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.2turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(2) {
+  -webkit-transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.4turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(7) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.4turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(3) {
+  -webkit-transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.6turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(8) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.6turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(4) {
+  -webkit-transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(0.8turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(9) {
+  bottom: 0;
+  -webkit-transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(0.8turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(5) {
+  -webkit-transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
+          transform: rotateY(1turn) translateZ(69px) rotateX(26.5deg);
+}
+.mil-pentagon:nth-child(10) {
+  bottom: 0;
+  -webkit-transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
+          transform: rotateY(1turn) translateZ(-69px) rotateX(206.5deg);
+}
+.mil-pentagon:nth-child(11) {
+  -webkit-transform: translateZ(69px) rotateX(-90deg);
+          transform: translateZ(69px) rotateX(-90deg);
+}
+.mil-pentagon:nth-child(12) {
+  bottom: 0;
+  -webkit-transform: translateZ(-69px) rotateX(90deg);
+          transform: translateZ(-69px) rotateX(90deg);
+}
+.mil-pentagon div {
+  position: absolute;
+  width: 100px;
+  height: 69px;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+.mil-pentagon div:nth-child(1) {
+  -webkit-transform: rotate(0.2turn);
+          transform: rotate(0.2turn);
+}
+.mil-pentagon div:nth-child(2) {
+  -webkit-transform: rotate(0.4turn);
+          transform: rotate(0.4turn);
+}
+.mil-pentagon div:nth-child(3) {
+  -webkit-transform: rotate(0.6turn);
+          transform: rotate(0.6turn);
+}
+.mil-pentagon div:nth-child(4) {
+  -webkit-transform: rotate(0.8turn);
+          transform: rotate(0.8turn);
+}
+.mil-pentagon div:nth-child(5) {
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+}
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+
+@keyframes jump {
+  0% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+}
+    
