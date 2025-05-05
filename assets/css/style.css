@@ -1365,7 +1365,7 @@ display:none;
     left: 0;
     height: 100%;
     width: 0;
-    background-color: rgb(255 255 255 / 60%);
+    background-color: rgb(255 255 255);
     -webkit-transition: 0.6s cubic-bezier(0, 0, 0.3642, 1);
     transition: all 0.3s ease-in-out;
     z-index:-1;
