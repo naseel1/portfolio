@@ -1358,6 +1358,14 @@ display:none;
     border: 1px solid #fff ;
     color:#000;
 }
+.thank-you {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .btn-send::before {
     content: "";
     position: absolute;
