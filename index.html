@@ -277,12 +277,7 @@
     object-fit: contain;"/>
     </div>
     <div class="back"></div>
-    <a href="tel:+91 8156820308" target="_blank" id="phone"
-       class="whatsapp"><i class="bi bi-telephone"></i>
-    </a>
-    <a href="https://wa.me/918156820308" target="_blank" class="whatsapp">
-        <i class="bi bi-whatsapp"></i>
-    </a>
+
     <div class="container">
         <div class="hero-content">
             <img src="assets/img/me.png" class="image_me" alt="Naseel"/>
@@ -436,57 +431,69 @@
     </div><!-- End Services Section -->
     <div class="skills process-section">
         <h2 class="my-skill">My Skills</h2>
-        <ul class="skills-bar-container">
-            <li>
-                <div class="progressbar-title">
-                    <h3>HTML5</h3>
-                    <span class="percent" id="html-pourcent"></span>
-                </div>
-                <div class="bar-container">
-                    <span class="progressbar progressred" id="progress-html"></span>
-                </div>
-            </li>
-            <li>
-                <div class="progressbar-title">
-                    <h3>CSS / SASS</h3>
-                    <span class="percent" id="css-pourcent"></span>
-                </div>
-                <div class="bar-container">
-                    <span class="progressbar progressblue" id="progress-css"></span>
-                </div>
-            </li>
+        <div class="container progressbar">
+            <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="--value: 100">
+                <span>HTML/CSS</span></div>
+            <div role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="--value: 95">
+                <span>Bootstrap</span></div>
+            <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value: 70">
+                <span>JavaScript</span></div>
+            <div role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="--value: 70">
+                <span style="font-size: 16px;">Python/Odoo</span></div>
+            <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value: 65">
+                <span>React Js</span></div>
+        </div>
+        <!--        <ul class="skills-bar-container">-->
+        <!--            <li>-->
+        <!--                <div class="progressbar-title">-->
+        <!--                    <h3>HTML5</h3>-->
+        <!--                    <span class="percent" id="html-pourcent"></span>-->
+        <!--                </div>-->
+        <!--                <div class="bar-container">-->
+        <!--                    <span class="progressbar progressred" id="progress-html"></span>-->
+        <!--                </div>-->
+        <!--            </li>-->
+        <!--            <li>-->
+        <!--                <div class="progressbar-title">-->
+        <!--                    <h3>CSS / SASS</h3>-->
+        <!--                    <span class="percent" id="css-pourcent"></span>-->
+        <!--                </div>-->
+        <!--                <div class="bar-container">-->
+        <!--                    <span class="progressbar progressblue" id="progress-css"></span>-->
+        <!--                </div>-->
+        <!--            </li>-->
 
-            <li>
-                <div class="progressbar-title">
-                    <h3>JavaScript / jQuery</h3>
-                    <span class="percent" id="javascript-pourcent"></span>
-                </div>
-                <div class="bar-container">
-                    <span class="progressbar progresspurple" id="progress-javascript"></span>
-                </div>
-            </li>
+        <!--            <li>-->
+        <!--                <div class="progressbar-title">-->
+        <!--                    <h3>JavaScript / jQuery</h3>-->
+        <!--                    <span class="percent" id="javascript-pourcent"></span>-->
+        <!--                </div>-->
+        <!--                <div class="bar-container">-->
+        <!--                    <span class="progressbar progresspurple" id="progress-javascript"></span>-->
+        <!--                </div>-->
+        <!--            </li>-->
 
-            <li>
-                <div class="progressbar-title">
-                    <h3>Python/ Odoo</h3>
-                    <span class="percent" id="php-pourcent"></span>
-                </div>
-                <div class="bar-container">
-                    <span class="progressbar progressorange" id="progress-php"></span>
-                </div>
-            </li>
+        <!--            <li>-->
+        <!--                <div class="progressbar-title">-->
+        <!--                    <h3>Python/ Odoo</h3>-->
+        <!--                    <span class="percent" id="php-pourcent"></span>-->
+        <!--                </div>-->
+        <!--                <div class="bar-container">-->
+        <!--                    <span class="progressbar progressorange" id="progress-php"></span>-->
+        <!--                </div>-->
+        <!--            </li>-->
 
-            <li>
-                <div class="progressbar-title">
-                    <h3>React</h3>
-                    <span class="percent" id="angular-pourcent"></span>
-                </div>
-                <div class="bar-container">
-                    <span class="progressbar progressgreen" id="progress-angular"></span>
-                </div>
-            </li>
+        <!--            <li>-->
+        <!--                <div class="progressbar-title">-->
+        <!--                    <h3>React</h3>-->
+        <!--                    <span class="percent" id="angular-pourcent"></span>-->
+        <!--                </div>-->
+        <!--                <div class="bar-container">-->
+        <!--                    <span class="progressbar progressgreen" id="progress-angular"></span>-->
+        <!--                </div>-->
+        <!--            </li>-->
 
-        </ul>
+        <!--        </ul>-->
     </div>
 
     <!-- ======= Portfolio Section ======= -->
@@ -793,7 +800,12 @@
             </div>
         </div>
     </div><!-- End Contact Section -->
-
+    <a href="tel:+91 8156820308" target="_blank" id="phone"
+       class="whatsapp"><i class="bi bi-telephone"></i>
+    </a>
+    <a href="https://wa.me/918156820308" target="_blank" class="whatsapp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
@@ -880,25 +892,6 @@ appearElements.forEach(element => {
 });
 
 
-</script>
-<script>
-    var lang = {
-    "html": "100%",
-    "css": "90%",
-    "javascript": "70%",
-    "php": "92%",
-    "angular": "65%"
-  };
-
-  var multiply = 4;
-
-  $.each(lang, function(language, pourcent) {
-    let delayMultiplier = multiply; // Capture the correct value
-    setTimeout(function() {
-      $('#' + language + '-pourcent').html(pourcent);
-    }, 700 * delayMultiplier);
-    multiply++;
-  });
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
