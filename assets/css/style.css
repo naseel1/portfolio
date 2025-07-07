@@ -223,7 +223,7 @@ p {
 
 [role="progressbar"] {
   --percentage: var(--value);
-    --primary: #41f1a1;
+    --primary: #625748;
     --secondary: #ffffff;
     --size: 160px;
   animation: progress 5s 0.5s forwards;
