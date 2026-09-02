@@ -1,926 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naseel Nasi — Python Full-Stack, Web &amp; Odoo Developer</title>
+    <meta name="description"
+          content="Portfolio of Muhammad Naseel — Python full-stack, website and Odoo developer based in Calicut, Kerala, building responsive websites, Django backends and custom Odoo modules.">
+    <meta name="keywords"
+          content="Naseel, portfolio, Calicut, Kerala, India, Python full-stack developer, Odoo developer, web developer, Django developer, NS Creations">
 
-    <title>Naseel Nasi| NS Creations</title>
-    <meta content="Portfolio template, Best Portfolio, naseelnasi, Explore the portfolio of Naseel, a calict based Website Developer specializing in Best Responsive Websites Development. Showcasing projects in Responsive Web Designs with a focus on Best Developer."
-          name="description">
-    <meta content="Naseel, portfolio, calicut, kerala, india, Ns creations, Best Websites, calicut, kifra techno industrial park, HTML, CSS, JavaScript portfolio, calicut web designer, india UX designer, Freelance web design services, Muhammad Naseel web developer, "
-          name="keywords">
-
-    <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons (kept from original vendor set) -->
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/google77f7ceac06bfa587.html">
 
-    <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-    * Template Name: NS Creations
-    * Author: Muhammad Naseel k
-    ======================================================== -->
 </head>
-
 <body>
 
-<!-- ======= Header ======= -->
-<!-- HTML -->
-<script>
-    window.addEventListener("load", function () {
-      // Show welcome text after 1s
-      setTimeout(() => {
-        document.querySelector(".welcome-text").style.opacity = 1;
-      }, 1000);
-
-      // Hide loader after 5s
-      setTimeout(() => {
-        document.querySelector(".loading-overlay").style.display = "none";
-      }, 5000);
-    });
-</script>
-
-
-<div class="loading-overlay">
-    <img src="assets/img/load.gif" alt="Loading..." class="loading-gif"/>
-    <p class="welcome-text">Welcome!</p>
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="preloader__ring"></div>
+    <p>Loading portfolio</p>
 </div>
-<div class="circle"></div>
-<div class="circle-follow"></div>
-<header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo"><img src="assets/img/nasee.png" id="mob" alt="" class="img-fluid"><img
-                src="assets/img/nasee.png" alt="" class="img-fluid phone"></a>
-        <!-- Uncomment below if you prefer to use an text logo -->
-        <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+<!-- Cursor glow (desktop only, respects reduced motion) -->
+<div class="cursor-glow" id="cursorGlow"></div>
 
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link  scrollto" href="#portfolio">Works</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
-
-<!-- ======= Hero Section ======= -->
-<div id="hero" class="home process-section">
-    <div class="mil-animation mil-position-2 mil-scale" data-value-1="4" data-value-2="1"
-         style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 0px, 0px) scale(1.2665, 1.2665);">
-        <div class="mil-dodecahedron">
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <div class="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"
-         style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 0px, 0px) scale(1.9608, 1.9608);">
-        <div class="mil-dodecahedron">
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mil-pentagon">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <div class="toplogo">
-        <a href="https://www.instagram.com/naseel_na_si/" style="color: #fff;">
-            <img src="assets/img/nasee-logo.png">
-            <div style="font-size: 12px;">naseel_na_si
-            </div>
+<!-- ============ NAVBAR ============ -->
+<header class="nav-wrap" id="header">
+    <nav class="nav-glass container">
+        <a href="#hero" class="brand">
+            <span class="brand__mark">NS</span>
+            <span class="brand__text">Naseel&nbsp;Nasi</span>
         </a>
-    </div>
-    <div id="hero-mob">
-        <img src="assets/img/hi-video.gif" style="
-    height: 100%;
-    width: 100%;
-    object-fit: contain;"/>
-    </div>
-    <div class="back"></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#expertise" class="nav-link">Expertise</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--sm btn--ghost nav-cta">Let's talk</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+</header>
 
-    <div class="container">
-        <div class="hero-content">
-            <img src="assets/img/me.png" class="image_me" alt="Naseel"/>
-            <h1>Hi I'm <span class="typed"
-                             data-typed-items="Muhammad Naseel, a Designer, a Website Developer, a Odoo Developer"></span>
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+    <div class="aurora aurora--1"></div>
+    <div class="aurora aurora--2"></div>
+    <div class="aurora aurora--3"></div>
+    <div class="grain"></div>
+
+    <div class="container hero__grid">
+        <div class="hero__copy">
+            <p class="hero__location"><i class="bi bi-geo-alt"></i> Kakkanchery, Kozhikode, Kerala</p>
+            <h1 class="hero__title">
+                Python full-stack developer<br>
+                building <span class="hero__typed-wrap"><span class="typed"
+                                                              data-typed-items="Websites, Odoo Modules, Django Apps, REST APIs"></span></span>
             </h1>
-            <p>Designer, Website Developer, ODOO Developer </p>
+            <p class="hero__sub">
+                I'm Muhammad Naseel — a Python full-stack, website and Odoo developer at Emdot
+                Mincetech, turning business requirements into responsive websites, Django-backed
+                applications and reliable Odoo modules.
+            </p>
 
-            <ul class="list-unstyled list-social">
-                <li><a href="https://www.facebook.com/profile.php?id=100009208360963" target="_blank"><i
-                        class="bi bi-facebook"></i></a>
-                </li>
-                <li><a href="https://x.com/NaNaseel44362" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
-                <li><a href="https://www.instagram.com/naseel_na_si/" title="naseelnasi"><i class="bi bi-instagram"
-                                                                                            target="_blank"></i></a>
-                </li>
-                <li><a href="www.linkedin.com/in/naseel-k" title="naseel"><i class="bi bi-linkedin" target="_blank"></i></a>
-                </li>
-                <li>
-                    <a class="btn btn--svg js-animated-button" href="assets/img/Naseel_nasi.pdf">
-                        <span
-                                class="btn--svg__label">Download CV</span>
-                        <svg class="btn--svg__circle" width="190" x="0px" y="0px" viewBox="0 0 60 60"
-                             style="width: 100%;height: 100%;"
-                             enable-background="new 0 0 60 60">
-                            <circle class="js-discover-circle" fill="#FFFFFF" cx="30" cy="30" r="28.7"></circle>
-                        </svg>
-                        <svg class="btn--svg__border" x="0px" y="0px" preserveAspectRatio="none"
-                             style="width: 100%;height: 100%;"
-                             viewBox="2 29.3 56.9 13.4"
-                             enable-background="new 2 29.3 56.9 13.4" width="190">
-                            <g class="btn--svg__border--left js-discover-left-border" id="Calque_2">
-                                <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1"
-                                      d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
-                            </g>
-                            <g class="btn--svg__border--right js-discover-right-border" id="Calque_3">
-                                <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1"
-                                      d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
-                            </g>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div class="hero__actions">
+                <a href="assets/img/Naseel_nasi.pdf" class="btn btn--primary">
+                    <i class="bi bi-download"></i> Download CV
+                </a>
+                <a href="#work" class="btn btn--ghost">See my work</a>
+            </div>
+
+            <div class="hero__social">
+                <a href="https://www.facebook.com/profile.php?id=100009208360963" target="_blank" rel="noopener"
+                   aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://x.com/NaNaseel44362" target="_blank" rel="noopener" aria-label="X"><i
+                        class="bi bi-twitter-x"></i></a>
+                <a href="https://www.instagram.com/naseel_na_si/" target="_blank" rel="noopener" aria-label="Instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/naseel-k" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="hero__portrait">
+            <div class="portrait-glass">
+                <img src="assets/img/me.png" alt="Muhammad Naseel">
+            </div>
+            <div class="floating-chip floating-chip--top">
+                <i class="bi bi-briefcase"></i>
+                <div><strong>4+ yrs</strong><span>Odoo experience</span></div>
+            </div>
+            <div class="floating-chip floating-chip--bottom">
+                <i class="bi bi-buildings"></i>
+                <div><strong>Emdot Mincetech</strong><span>Since 2022</span></div>
+            </div>
         </div>
     </div>
-</div><!-- End Hero -->
 
-<main id="main ">
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
 
-    <!-- ======= About Section ======= -->
-    <div id="about" class="paddsection process-section">
-        <div class="container">
-            <div class="row justify-content-between">
+<main>
 
-                <div class="col-lg-4 appear">
-                    <div class="div-img-bg">
-                        <div class="about-img">
-                            <img src="assets/img/nasee.jpg" class="img-responsive" alt="Naseel">
-                        </div>
-                    </div>
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+        <div class="container about__grid">
+            <div class="about__media reveal">
+                <div class="about__frame">
+                    <img src="assets/img/nasee.jpg" alt="Naseel" class="img-fluid">
                 </div>
+            </div>
 
-                <div class="col-lg-7 appear">
-                    <div class="about-descr">
+            <div class="about__body reveal">
+                <p class="section-kicker">About</p>
+                <h2 class="section-title">Three years of turning briefs into working software.</h2>
+                <p class="about__text">
+                    I'm a Python full-stack, website and Odoo developer with over three years of
+                    hands-on experience in Odoo customization, implementation, and module
+                    development, currently at <strong>Emdot Mincetech Private Limited</strong> since
+                    2022. I hold a Bachelor's degree in Computer Applications and trained
+                    specifically in Python and Django, which lets me handle a project end to end —
+                    backend logic, Odoo modules, and the responsive front end that ties it together.
+                </p>
 
-                        <p class="p-heading">About Me</p>
-                        <p class="separator">Experienced Odoo Developer with over 3 years of hands-on
-                            experience in Odoo customization, implementation, and module
-                            development. Currently employed at <b>Emdot Mincetech Private
-                                Limited</b> since 2022. Holds a Bachelor's degree in Computer
-                            Applications (BCA) and has completed specialized training in
-                            Python and Django, providing a strong foundation in backend
-                            development. Proficient in responsive website design and
-                            development, with a focus on creating seamless user
-                            experiences across all devices. Known for delivering efficient,
-                            business-focused solutions tailored to client requirements.</p>
-
+                <div class="fact-grid">
+                    <div class="fact-chip">
+                        <i class="bi bi-mortarboard"></i>
+                        <div><strong>BCA</strong><span>Computer Applications</span></div>
                     </div>
-
+                    <div class="fact-chip">
+                        <i class="bi bi-code-slash"></i>
+                        <div><strong>Python &amp; Django</strong><span>Full-stack training</span></div>
+                    </div>
+                    <div class="fact-chip">
+                        <i class="bi bi-phone"></i>
+                        <div><strong>Responsive-first</strong><span>Every build</span></div>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <div id="services " class="process-section">
+    <!-- ============ EXPERTISE ============ -->
+    <section id="expertise" class="section section--tinted">
         <div class="container">
+            <p class="section-kicker">Expertise</p>
+            <h2 class="section-title">Where I add the most value.</h2>
 
-            <div class="services-slider swiper appear" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper-wrapper">
+            <div class="bento reveal">
+                <article class="glass-card bento__item">
+                    <i class="bi bi-braces"></i>
+                    <h3>Python full-stack</h3>
+                    <p>Django backends paired with the front end they power — one person handling
+                        both sides of the build.</p>
+                </article>
 
-                    <div class="swiper-slide ">
-                        <div class="services-block">
-                            <i class="bi bi-briefcase"></i>
-                            <span>UI/UX DESIGN</span>
-                            <p class="separator">UI/UX design makes sure your website looks good and is easy to use,
-                                which helps visitors have a better experience and find what they need quickly.</p>
-                        </div>
-                    </div><!-- End testimonial item -->
-                    <div class="swiper-slide">
-                        <div class="services-block">
-                            <i class="bi bi-bar-chart"></i>
-                            <span>WEB DESIGN</span>
-                            <p class="separator">balance aesthetics with functionality, creating sites that are both
-                                attractive and effective for users. </p>
-                        </div>
-                    </div><!-- End testimonial item -->
+                <article class="glass-card bento__item">
+                    <i class="bi bi-diagram-3"></i>
+                    <h3>Odoo development</h3>
+                    <p>Customizing and extending Odoo modules — from workflow tweaks to full custom
+                        apps — so the system fits the business.</p>
+                </article>
 
-                    <div class="swiper-slide">
-                        <div class="services-block">
-                            <i class="bi bi-binoculars"></i>
-                            <span>Website Development</span>
-                            <p class="separator">Website Development ensures that the design elements are functional,
-                                responsive, and
-                                work seamlessly across different browsers and devices</p>
-                        </div>
-                    </div><!-- End testimonial item -->
+                <article class="glass-card bento__item">
+                    <i class="bi bi-window-stack"></i>
+                    <h3>Website development</h3>
+                    <p>Responsive builds that work the same wherever they're opened, across browsers
+                        and devices.</p>
+                </article>
 
-                    <div class="swiper-slide">
-                        <div class="services-block">
-                            <i class="bi bi-brightness-high"></i>
-                            <span>Odoo Development</span>
-                            <p class="separator">Odoo development for websites involves customizing and extending the
-                                functionality of the Odoo website module to meet specific business needs. </p>
-                        </div>
-                    </div><!-- End testimonial item -->
+                <article class="glass-card bento__item">
+                    <i class="bi bi-palette"></i>
+                    <h3>UI/UX design</h3>
+                    <p>Interfaces that are easy to use, so visitors find what they need without
+                        thinking about it.</p>
+                </article>
 
-                    <div class="swiper-slide">
-                        <div class="services-block">
-                            <i class="bi bi-calendar4-week"></i>
-                            <span>Api Integrations</span>
-                            <p class="separator">API integration for website data collection allows you to connect your
-                                website with external systems to gather and utilize data more effectively </p>
-                        </div>
+                <article class="glass-card bento__item">
+                    <i class="bi bi-plug"></i>
+                    <h3>API integrations</h3>
+                    <p>Connecting a site to external systems so data flows in and out without manual
+                        work.</p>
+                </article>
+
+                <article class="glass-card bento__item">
+                    <i class="bi bi-file-earmark-person"></i>
+                    <h3>CV &amp; portfolio design</h3>
+                    <p>Layout and design work for developer CVs, built with the same care as a
+                        client project.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+        <div class="container">
+            <p class="section-kicker">Toolkit</p>
+            <h2 class="section-title">What I build with.</h2>
+
+            <div class="skills-grid reveal">
+                <div class="skill-bar" data-value="100">
+                    <div class="skill-bar__head"><span>HTML / CSS</span><em>100%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
                     </div>
-                    <!-- End testimonial item -->
-                    <div class="swiper-slide">
-                        <div class="services-block">
-                            <i class="bi bi-card-checklist"></i>
-                            <span>CV Creation</span>
-                            <p class="separator">Browse my portfolio to see how I use innovative design and layout
-                                techniques to enhance web developer CVs. </p>
-                        </div>
-                    </div>
-
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="skill-bar" data-value="95">
+                    <div class="skill-bar__head"><span>Bootstrap</span><em>95%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
+                    </div>
+                </div>
+                <div class="skill-bar" data-value="75">
+                    <div class="skill-bar__head"><span>Python / Django</span><em>75%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
+                    </div>
+                </div>
+                <div class="skill-bar" data-value="75">
+                    <div class="skill-bar__head"><span>Odoo</span><em>75%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
+                    </div>
+                </div>
+                <div class="skill-bar" data-value="70">
+                    <div class="skill-bar__head"><span>JavaScript</span><em>70%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
+                    </div>
+                </div>
+                <div class="skill-bar" data-value="65">
+                    <div class="skill-bar__head"><span>React JS</span><em>65%</em></div>
+                    <div class="skill-bar__track">
+                        <div class="skill-bar__fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section id="work" class="section section--tinted">
+        <div class="container">
+            <div class="work__head">
+                <div>
+                    <p class="section-kicker">Selected work</p>
+                    <h2 class="section-title">Live sites I've built and shipped.</h2>
+                </div>
+                <div class="filters" id="filters">
+                    <button class="filter-btn is-active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="business">Business</button>
+                    <button class="filter-btn" data-filter="education">Education</button>
+                </div>
             </div>
 
+            <div class="work-grid" id="workGrid">
+
+                <a href="https://i2iconsultants.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/i2i.png" alt="I2I Consultants website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>I2I Consultants LLP</h3>
+                        <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://www.sehrconcepts.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/slider1.webp" alt="Sehr Concepts website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Sehr Concepts, Kochi</h3>
+                         <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://emea.em2.in/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/emea.png" alt="EMEA College website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>EMEA College, Kondotty</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://alsaadahmarine.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/alsaadah.png"
+                                                       alt="Alsaadah Marine Services website" loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Alsaadah Marine Services LLC</h3>
+                        <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://www.mincetech.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/mince.png" alt="Emdot Mincetech website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Emdot Mincetech Pvt. Ltd</h3>
+                        <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://meskc.ac.in/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/mes.png" alt="MES Kalladi College website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>MES Kalladi College</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://sahyacollege.ac.in/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/sahya.png"
+                                                       alt="Sahya Arts and Science College website" loading="lazy">
+                    </div>
+                    <div class="work-card__body">
+                        <h3>Sahya Arts &amp; Science College</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://wilddesertdeer.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/about.png" alt="Cut and Culture website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>WILD DESERT DEER LLC, Oman</h3>
+                        <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://cpacollege.ac.in/" target="_blank" rel="noopener"
+                   class="work-card glass-card" data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/college.webp"
+                                                       alt="CPA COLLEGE OF GLOBAL STUDIES website" loading="lazy">
+                    </div>
+                    <div class="work-card__body">
+                        <h3>CPA COLLEGE OF GLOBAL STUDIES, Puthanathani</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://gemsasc.ac.in/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/gems.png"
+                                                       alt="Gems Arts and Science College website" loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Gems Arts &amp; Science College</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://globaldesertstag.com/" target="_blank" rel="noopener" class="work-card glass-card"
+                   data-cat="business">
+                    <div class="work-card__media"><img src="assets/img/global.png" alt="Global Desert Stag website" style="    object-position: top center;"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Global Desert Stag, Oman</h3>
+                        <span>Business <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="https://farooktrainingcollege.ac.in/" target="_blank" rel="noopener"
+                   class="work-card glass-card" data-cat="education">
+                    <div class="work-card__media"><img src="assets/img/farook.png" alt="Farook Training College website"
+                                                       loading="lazy"></div>
+                    <div class="work-card__body">
+                        <h3>Farook Training College</h3>
+                        <span>Education <i class="bi bi-arrow-up-right"></i></span>
+                    </div>
+                </a>
+
+            </div>
         </div>
+    </section>
 
-    </div><!-- End Services Section -->
-    <div class="skills process-section">
-        <h2 class="my-skill">My Skills</h2>
-        <div class="container progressbar">
-            <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="--value: 100">
-                <span>HTML/CSS</span></div>
-            <div role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="--value: 95">
-                <span>Bootstrap</span></div>
-            <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value: 70">
-                <span>JavaScript</span></div>
-            <div role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="--value: 70">
-                <span style="font-size: 16px;">Python/Odoo</span></div>
-            <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value: 65">
-                <span>React Js</span></div>
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+        <div class="container contact__grid">
+            <div class="contact__info reveal">
+                <p class="section-kicker">Contact</p>
+                <h2 class="section-title">Have a project in mind?</h2>
+                <p class="about__text">Send a message or reach out directly — I usually reply within a day.</p>
+
+                <ul class="contact-list">
+                    <li><i class="bi bi-geo-alt"></i> Kinfra Techno Industrial Park, Kakkanchery, Kozhikode</li>
+                    <li><i class="bi bi-telephone"></i> <a href="tel:+918156820308">+91 81568 20308</a></li>
+                    <li><i class="bi bi-envelope"></i> <a href="mailto:naseelntm00@gmail.com">naseelntm00@gmail.com</a>
+                    </li>
+                </ul>
+
+                <div class="hero__social">
+                    <a href="https://www.facebook.com/profile.php?id=100009208360963" target="_blank" rel="noopener"
+                       aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/NaNaseel44362" target="_blank" rel="noopener" aria-label="X"><i
+                            class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.instagram.com/naseel_na_si/" target="_blank" rel="noopener"
+                       aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/naseel-k" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+                            class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/918156820308" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                            class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form glass-card reveal" action="https://formsubmit.co/naseelntm00@gmail.com"
+                  method="POST">
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                </div>
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me about the project"
+                              required></textarea>
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://naseel1.github.io/portfolio/thank-you.html">
+                <button type="submit" class="btn btn--primary btn--block">Send message</button>
+            </form>
         </div>
-        <!--        <ul class="skills-bar-container">-->
-        <!--            <li>-->
-        <!--                <div class="progressbar-title">-->
-        <!--                    <h3>HTML5</h3>-->
-        <!--                    <span class="percent" id="html-pourcent"></span>-->
-        <!--                </div>-->
-        <!--                <div class="bar-container">-->
-        <!--                    <span class="progressbar progressred" id="progress-html"></span>-->
-        <!--                </div>-->
-        <!--            </li>-->
-        <!--            <li>-->
-        <!--                <div class="progressbar-title">-->
-        <!--                    <h3>CSS / SASS</h3>-->
-        <!--                    <span class="percent" id="css-pourcent"></span>-->
-        <!--                </div>-->
-        <!--                <div class="bar-container">-->
-        <!--                    <span class="progressbar progressblue" id="progress-css"></span>-->
-        <!--                </div>-->
-        <!--            </li>-->
+    </section>
 
-        <!--            <li>-->
-        <!--                <div class="progressbar-title">-->
-        <!--                    <h3>JavaScript / jQuery</h3>-->
-        <!--                    <span class="percent" id="javascript-pourcent"></span>-->
-        <!--                </div>-->
-        <!--                <div class="bar-container">-->
-        <!--                    <span class="progressbar progresspurple" id="progress-javascript"></span>-->
-        <!--                </div>-->
-        <!--            </li>-->
+</main>
 
-        <!--            <li>-->
-        <!--                <div class="progressbar-title">-->
-        <!--                    <h3>Python/ Odoo</h3>-->
-        <!--                    <span class="percent" id="php-pourcent"></span>-->
-        <!--                </div>-->
-        <!--                <div class="bar-container">-->
-        <!--                    <span class="progressbar progressorange" id="progress-php"></span>-->
-        <!--                </div>-->
-        <!--            </li>-->
-
-        <!--            <li>-->
-        <!--                <div class="progressbar-title">-->
-        <!--                    <h3>React</h3>-->
-        <!--                    <span class="percent" id="angular-pourcent"></span>-->
-        <!--                </div>-->
-        <!--                <div class="bar-container">-->
-        <!--                    <span class="progressbar progressgreen" id="progress-angular"></span>-->
-        <!--                </div>-->
-        <!--            </li>-->
-
-        <!--        </ul>-->
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+    <div class="container footer__grid">
+        <div class="footer__grid">
+            <span class="brand__mark">NS</span>
+            <p>Python full-stack, web &amp; Odoo developer, Calicut, Kerala.</p>
+        </div>
+        <div class="hero__social">
+            <a href="https://www.facebook.com/profile.php?id=100009208360963" target="_blank" rel="noopener"
+               aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://x.com/NaNaseel44362" target="_blank" rel="noopener" aria-label="X"><i
+                    class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/naseel_na_si/" target="_blank" rel="noopener" aria-label="Instagram"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/naseel-k" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+        <p class="footer__legal">&copy; <span id="year"></span> Naseel Nasi. Designed by NS Creations.</p>
     </div>
+</footer>
 
-    <!-- ======= Portfolio Section ======= -->
-    <div id="portfolio" class="paddsection process-section">
+<a href="#hero" class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
 
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>My Works</h2>
-            </div>
-        </div>
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">Business</li>
-                        <li data-filter=".filter-card">Education</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app appear">
-                    <a href="https://i2iconsultants.com/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/i2i.png" class="img-fluid" alt="i2i website created naseel"
-                             style="object-position: left top;">
-                        <div class="portfolio-info">
-                            <h4>I2I Consultants LLP</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://fathimaasc.ac.in/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/fathima.png" class="img-fluid"
-                             alt="fathima college website created naseel">
-                        <div class="portfolio-info">
-                            <h4>Fathima College, Nilambure</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://emea.em2.in/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/emea.png" class="img-fluid" alt="" style="    object-position: left top;">
-                        <div class="portfolio-info">
-                            <h4>EMEA College, Kondotty</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app appear">
-                    <a href="https://alsaadahmarine.com/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/alsaadah.png" class="img-fluid"
-                             alt="Alsaadah Marine services website created naseel">
-                        <div class="portfolio-info">
-                            <h4>Alsaadah Marine Services LLC</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app appear">
-                    <a href="https://www.mincetech.com/" data-gallery="portfolioGallery"
-                       class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/mince.png" class="img-fluid" alt="Emdot Mincetech website created naseel">
-                        <div class="portfolio-info">
-                            <h4>Emdot Mincetech Pvt. Ltd</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://meskc.ac.in/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/mes.png" class="img-fluid" alt="Mes Kalladi website created naseel">
-                        <div class="portfolio-info">
-                            <h4>MES Kalladi College</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://sahyacollege.ac.in/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/sahya.png" class="img-fluid" alt="sahya college website created naseel">
-                        <div class="portfolio-info">
-                            <h4>Sahya Arts &amp; Science College</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app appear">
-                    <a href="https://cutculture.shop/" data-gallery="portfolioGallery" class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/cut.png" class="img-fluid"
-                             alt="Cut & Culture website created naseel" style="object-position: left;">
-                        <div class="portfolio-info">
-                            <h4>Cut &amp; Culture</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://motherartsandsciencecollege.ac.in/" data-gallery="portfolioGallery"
-                       class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/mother.gif" class="img-fluid"
-                             alt="MOTHER ARTS AND SCIENCE COLLEGE  website created naseel">
-                        <div class="portfolio-info">
-                            <h4>MOTHER ARTS AND SCIENCE COLLEGE </h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://gemsasc.ac.in/" data-gallery="portfolioGallery"
-                       class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/gems.png" class="img-fluid"
-                             alt="Gems Arts & Science College website created naseel">
-                        <div class="portfolio-info">
-                            <h4>Gems Arts & Science College</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app appear">
-                    <a href="https://hardrocks.online/" data-gallery="portfolioGallery"
-                       class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/gypsum.png" class="img-fluid" alt=""
-                             style="object-position: left;">
-                        <div class="portfolio-info">
-                            <h4>Hard Rock Gypsum </h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card appear">
-                    <a href="https://farooktrainingcollege.ac.in/" data-gallery="portfolioGallery"
-                       class="portfolio-item-link"
-                       target="_blank">
-                        <img src="assets/img/farook.png" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Farook Training College</h4>
-                            <i class="bx bx-plus"></i>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div><!-- End Portfolio Section -->
-
-    <!-- ======= Journal Section ======= -->
-    <!--    <div id="journal" class="text-left paddsection">-->
-
-    <!--        <div class="container">-->
-    <!--            <div class="section-title text-center">-->
-    <!--                <h2>journal</h2>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <!--        <div class="container">-->
-    <!--            <div class="journal-block">-->
-    <!--                <div class="row">-->
-
-    <!--                    <div class="col-lg-4 col-md-6">-->
-    <!--                        <div class="journal-info">-->
-
-    <!--                            <a href="blog-single.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive"-->
-    <!--                                                            alt="img"></a>-->
-
-    <!--                            <div class="journal-txt">-->
-
-    <!--                                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>-->
-    <!--                                <p class="separator">To an English person, it will seem like simplified English-->
-    <!--                                </p>-->
-
-    <!--                            </div>-->
-
-    <!--                        </div>-->
-    <!--                    </div>-->
-
-    <!--                    <div class="col-lg-4 col-md-6">-->
-    <!--                        <div class="journal-info">-->
-
-    <!--                            <a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive"-->
-    <!--                                                            alt="img"></a>-->
-
-    <!--                            <div class="journal-txt">-->
-
-    <!--                                <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>-->
-    <!--                                <p class="separator">To an English person, it will seem like simplified English-->
-    <!--                                </p>-->
-
-    <!--                            </div>-->
-
-    <!--                        </div>-->
-    <!--                    </div>-->
-
-    <!--                    <div class="col-lg-4 col-md-6">-->
-    <!--                        <div class="journal-info">-->
-
-    <!--                            <a href="blog-single.html"><img src="assets/img/blog-post-3.jpg" class="img-responsive"-->
-    <!--                                                            alt="img"></a>-->
-
-    <!--                            <div class="journal-txt">-->
-
-    <!--                                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>-->
-    <!--                                <p class="separator">To an English person, it will seem like simplified English-->
-    <!--                                </p>-->
-
-    <!--                            </div>-->
-
-    <!--                        </div>-->
-    <!--                    </div>-->
-
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <!--    </div>&lt;!&ndash; End Journal Section &ndash;&gt;-->
-
-    <!-- ======= Contact Section ======= -->
-    <div id="contact" class="paddsection process-section">
-        <div class="container">
-            <div class="contact-block1">
-                <div class="row">
-
-                    <div class="col-lg-6 appear">
-                        <div class="contact-contact">
-
-                            <h2 class="mb-30">GET IN TOUCH</h2>
-
-                            <ul class="contact-details">
-                                <li><span>Kinfra Techno Industrial Park</span></li>
-                                <li><span>Kakkanchery, Kozhikode</span></li>
-                                <li><span>+91 8156820308</span></li>
-                                <li><span>naseelntm00@gmail.com</span></li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 appear">
-                        <form action="https://formsubmit.co/naseelntm00@gmail.com" method="POST">
-                            <div class="row gy-3">
-                                <div class="col-lg-6">
-                                    <div class="form-group contact-block1">
-                                        <input type="text" name="name" class="form-control" id="name"
-                                               placeholder="Your Name" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                               placeholder="Your Email" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject"
-                                               placeholder="Subject" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" placeholder="Message"
-                                                  required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <input type="hidden" name="_captcha" value="false">
-                                    <input type="hidden" name="_next"
-                                           value="https://naseel1.github.io/portfolio/thank-you.html">
-                                </div>
-
-                                <div class="mt-0">
-                                    <button type="submit" class="w-100 btn btn-defeault btn-send" value="Send message">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- End Contact Section -->
-    <a href="tel:+91 8156820308" target="_blank" id="phone"
-       class="whatsapp"><i class="bi bi-telephone"></i>
-    </a>
-    <a href="https://wa.me/918156820308" target="_blank" class="whatsapp">
-        <i class="bi bi-whatsapp"></i>
-    </a>
-</main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<div id="footer" class="text-center process-section">
-    <div class="container">
-        <div class="socials-media text-center">
-
-            <ul class="list-unstyled">
-                <li><a href="https://www.facebook.com/profile.php?id=100009208360963" target="_blank"><i
-                        class="bi bi-facebook"></i></a>
-                </li>
-                <li><a href="https://x.com/NaNaseel44362"><i class="bi bi-twitter-x" target="_blank"></i></a></li>
-                <li><a href="https://www.instagram.com/naseel_na_si/" target="_blank"><i
-                        class="bi bi-instagram"></i></a></li>
-                <li><a href="www.linkedin.com/in/naseel-k" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-            </ul>
-
-        </div>
-
-        <p>&copy; Copyrights. All rights reserved.</p>
-        <span style="
-    font-size: 10px;
-">Site visitors:<a href="#" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=15838419&amp;style=0008&amp;nbdigits=5&amp;type=ip&amp;initCount=0312"
-     title="Counter Widget" alt="Visit counter For Websites" border="0"></a></span>
-
-        <div class="credits">
-
-            Designed by <a href="#" style="color:#ffff;font-weight: 600;">NS Creations</a>
-        </div>
-
-    </div>
-</div><!-- End Footer -->
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- Vendor: typed.js only (kept from original template) -->
 <script src="assets/vendor/typed.js/typed.umd.js"></script>
-<!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent form from submitting the default way
-
-        // Show the loading message
-        document.querySelector('.loading').style.display = 'block';
-
-        // Simulate form submission process
-        setTimeout(function() {
-            // Hide the loading message
-            document.querySelector('.loading').style.display = 'none';
-
-            // Show the sent-message
-            document.querySelector('.sent-message').style.display = 'block';
-        }, 2000); // Adjust the time as needed
-    });
-});
-
-</script>
-<script>
-    const appearElements = document.querySelectorAll('.appear');
-
-const cb = function (entries, observer) {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('inview');
-      // Stop observing the element after the first time it comes into view
-      observer.unobserve(entry.target);
-    }
-  });
-};
-
-const io = new IntersectionObserver(cb);
-
-appearElements.forEach(element => {
-  io.observe(element);
-});
-
-
-</script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
-<script>
-    $(document).ready(function () {
-    $(".process-section").ripples({
-      resolution: 256,
-      perturbance: 0.01,
-    });
-  });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-      var $circle = document.querySelector('.circle'),
-          $follow = document.querySelector('.circle-follow');
-
-      function moveCircle(e) {
-        gsap.to($circle, { duration: 0.3, x: e.clientX, y: e.clientY });
-        gsap.to($follow, { duration: 0.7, x: e.clientX, y: e.clientY });
-      }
-
-      window.addEventListener('mousemove', moveCircle);
-    });
-</script>
-
-
 </body>
-
 </html>
